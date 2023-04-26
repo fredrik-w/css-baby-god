@@ -10,7 +10,7 @@ const googleFont = Libre_Baskerville({subsets: ['latin'], weight: '400', variabl
 export default function Home() {
   return (
     <main className='flex items-center justify-center bg-white h-full'>
-      <article className="h-full w-[500px] mt-96 flex flex-col gap-4 bg-pink-50 p-8 -pl-8 rounded-3xl">
+      <article className="h-fit w-[500px] flex flex-col gap-4 bg-pink-50 p-8 -pl-8 rounded-3xl">
         <div className="bg-pink-500 rounded-xl p-4 flex flex-row self-end w-fit text-white gap-4">
           <SparklesIcon width={24}/> Achievement unlocked
         </div>
